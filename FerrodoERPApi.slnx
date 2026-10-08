@@ -7,5 +7,6 @@
   </Folder>
   <Folder Name="/src/Presentation/">
     <Project Path="FerrodoERPApi/FerrodoERPApi.csproj" />
+    <Project Path="PresentationBase/PresentationBase.csproj" Id="f51a15eb-516e-4547-a607-416c0cbdad40" />
   </Folder>
 </Solution>
