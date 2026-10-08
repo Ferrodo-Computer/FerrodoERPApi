@@ -5,5 +5,7 @@ namespace PresentationBase.AuthServices.Interfaces
     public interface ITokenService
     {
         Task<TokenPair> IssueToken(string login);
+        string ReadUserIdFromClaims();
+        string ReadLoginFromClaims();
     }
 }
